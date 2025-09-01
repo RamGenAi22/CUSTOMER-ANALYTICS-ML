@@ -1,0 +1,19 @@
+# Customer Analytics & Prediction Suite
+
+## Regression
+- Model: Ridge Regression
+- MSE: 1.075
+- R²: 0.998
+
+## Classification
+- Model: Random Forest (GridSearchCV tuned)
+- ROC AUC: 0.842
+- Confusion Matrix: saved in reports/figures/confusion_matrix.png
+- Top features: Tenure, Contract, MonthlyCharges
+
+## Clustering
+- Model: KMeans (4 clusters)
+- Cluster 0: Low tenure, high churn risk
+- Cluster 1: Long tenure, loyal
+- Cluster 2: High spend premium
+- Cluster 3: Low spend occasional

@@ -1,0 +1,25 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+
+# Models (binary files can be large, store locally)
+models/*
+
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
